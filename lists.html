@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            margin: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #444;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        ul, ol {
+            margin-left: 30px;
+        }
+
+        li {
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>My Lists Page</h2>
+
+    <!-- Ordered List -->
+    <div class="box">
+        <h3>1. Daily Routine (Ordered List)</h3>
+        <ol>
+            <li>Wake up at 6:00 AM</li>
+            <li>Go for exercise</li>
+            <li>Attend college</li>
+            <li>Study and project work</li>
+            <li>Sleep by 10:30 PM</li>
+        </ol>
+    </div>
+
+    <!-- Unordered List -->
+    <div class="box">
+        <h3>2. Skills (Unordered List)</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Team Work</li>
+            <li>Communication</li>
+        </ul>
+    </div>
+
+    <!-- Nested List -->
+    <div class="box">
+        <h3>3. Programming Languages → Frameworks (Nested List)</h3>
+        <ul>
+            <li>JavaScript
+                <ul>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </li>
+            <li>Python
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                </ul>
+            </li>
+            <li>Java
+                <ul>
+                    <li>Spring Boot</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
